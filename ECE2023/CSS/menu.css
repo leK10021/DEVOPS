@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    display: flex;
+    background-color: rgb(14,14,16);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{ 
+    width: 7px;
+    }
+        
+    ::-webkit-scrollbar-thumb{
+        background-color: #2fced4c8;
+        position: absolute;
+    }
+
+.containerMenu{
+    width: 21vw;
+    height: 100vw;
+    position: fixed;
+    background-color: rgb(14,14,16);
+    border-right: 1px rgba(87, 87, 87, 0.274) solid;
+    opacity: 1;
+}
+
+.logo{
+    font-family: "Lobster";
+    color: #57f4fa;
+    font-size: 3vw;
+    width: calc(100% -30px);
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.redirection{
+    display: flex;
+}
+
+.redirection{
+    text-decoration: none;
+    width: calc(100% - 25px);
+    padding-left: 18px;
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 1.3vw;
+    align-items: center;
+    width: 80%;
+    margin-left: 5%;
+    height: 50px;
+    border-radius: 40px;
+    transition: 0.2s ease;
+}
+
+.redirection:hover{
+    background-color: #2fced4c8;
+    font-size: 1.35vw;
+}
+
+img{
+    width: 11%;
+    margin-right: 15px;
+    transition: 0.1s ease;
+
+}
+
+.redirection:hover > img{
+    width: 11.5%;
+}
+
+.content{
+    margin-left: 21vw;
+}
+
+.containerSearch{
+    position: fixed;
+    right: center;
+    right: 0;
+    width: 25vw;
+    height: 100vh;
+    padding-top: 2vw;
+    border-left: 1px rgba(87, 87, 87, 0.274) solid;
+
+}
+
+.searchForm{
+    display: flex;
+    height: 6vh;   
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.searchInput{
+    width: 80%;
+    height: 100%;
+    display: block;
+    border-radius: 50px;
+    margin-left: 6px;
+    border: none;
+    padding-left: 10px;
+    color: whitesmoke;
+    background-color: #1f1f1fb9;
+    border: solid 2px #1f1f1fb9;
+}
+
+
+.searchInput:focus{
+    border: solid 2px #2fced4;
+    outline: none;
+}
+
+.containerAccountsRight{
+    width: 100%;
+    height: 91vh;
+    position: absolute;
+    bottom: 0vw;    
+
+}
+
+.containerAccountRight{
+    display: flex;
+    padding-left: 12%;
+    margin-top: 1vw;
+    height: 3vw;
+    align-items: center;
+    
+}
+
+.imgAccountRight{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+
+    background-image: linear-gradient(90deg, rgba(47,206,212,1) 15%, rgba(36,29,253,1) 56%, rgba(47,206,212,1) 87%);
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(47,206,212,1) 15%, rgba(36,29,253,1) 56%, rgba(47,206,212,1) 87%);
+    object-fit: cover;
+    box-shadow: 0px 0px 1px 1px #2fced451;
+}
+
+.containerAccountsSearch{
+    width: 100%;
+    height: 91vh;
+    position: absolute;
+    bottom: 0vw;
+    opacity: 0;
+    z-index: -1;
+    background-color: rgb(14,14,16);
+}
+

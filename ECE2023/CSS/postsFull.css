@@ -1,0 +1,88 @@
+.containerAllPostFull{
+    position: fixed;
+    height: 300vh;
+    width: 100vw;
+    z-index: -2;
+    opacity: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.close{
+    position: fixed;
+    top: 10px;
+    right: 2px;
+    width: 1.5vw;
+    height: 1.5vw;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 8;
+}
+
+.containerPostFull{
+    position: fixed;
+    height: 90vh;
+    width: 76vw;
+    top: 5vh;
+    left: 12vw;
+    background-color: rgb(14, 14, 16);    
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+.containerRight{
+    width: 53%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.imgLeft{
+    width: 47%;
+    height: 100%;
+}
+
+.HPFull{
+    margin-top: 1vw;
+    width: 100%;
+    margin-bottom: 0;
+    height: 8%;
+    padding-left: 0.6vw;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.509) ;
+}
+
+.containerCommentsLimit{
+    height: 81%;
+    overflow-y: scroll;   
+    padding-left: 1vw; 
+}
+
+
+
+.form2{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+.imgFull{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sendBtn_2{
+    background: url("../icon/sendIcon.png") no-repeat scroll 0 0 transparent;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    width: 2vw;
+    margin-left: 5px;
+
+}
